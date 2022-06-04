@@ -1,7 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <div>
-    <button @click="fetchData">get Data</button>
+    <button @click="fetchData">get Data!</button>
   </div>
 
   <form id="myForm" @submit.prevent="sendPost">
